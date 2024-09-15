@@ -14,10 +14,19 @@ const pageData = [
     {
         enlace_logo_proyecto: imageHelper.Logo_LaunchLab,
         enlace_index: "/",
+        enlace_documentos: "/documentos",
+        enlace_proceso: "/proceso",
+        enlace_nosotros: "/nosotros",
+        enlace_proyectos: "/proyectos",
     },
     {
         enlace_logo_proyecto: imageHelper.Logo_ArrowAscend_fondo_negro,
         enlace_index: "/index2",
+        enlace_index: "/index2",
+        enlace_documentos: "/documentos2",
+        enlace_proceso: "/proceso2",
+        enlace_nosotros: "/nosotros2",
+        enlace_proyectos: "/proyectos2",
     },
 ];
 
@@ -31,10 +40,18 @@ export function Navegador() {
     switch (location.pathname) {
         case '/':
         case '/index':
+        case '/documentos':
+        case '/nosotros':
+        case '/proceso':
+        case '/proyectos':
             pageDataToUse = pageData[0];
             break;
         
         case '/index2':
+        case '/documentos2':
+        case '/nosotros2':
+        case '/proceso2':
+        case '/proyectos2':
             pageDataToUse = pageData[1];
             break;
     }
@@ -90,6 +107,10 @@ export function Navegador() {
                 </button>
                 <ul className={`${isOpen ? styles.menu_visible : styles.menu_hidden} ${scrolling ? styles['reducida_ul'] : ''}`}>
                     <li><Link to={pageDataToUse.enlace_documentos} className={activeLink === '/index' || activeLink === '/index' ? styles['active'] : ''}>Inicio</Link></li>
+                    <li><Link to={pageDataToUse.enlace_documentos} className={activeLink === '/documentos' || activeLink === '/documentos2' ? styles['active'] : ''}>Documentos</Link></li>
+                    <li><Link to={pageDataToUse.enlace_proceso} className={activeLink === '/proceso' || activeLink === '/proceso2' ? styles['active'] : ''}>Proceso</Link></li>
+                    <li><Link to={pageDataToUse.enlace_nosotros} className={activeLink === '/nosotros' || activeLink === '/nosotros2' ? styles['active'] : ''}>Nosotros</Link></li>
+                    <li><Link to={pageDataToUse.enlace_proyectos} className={activeLink === '/proyectos' || activeLink === '/proyectos2' ? styles['active'] : ''}>Proyectos</Link></li>
                 </ul> 
             </nav>
             <div className={styles.espacio_nav}></div>
