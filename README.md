@@ -35,3 +35,27 @@
 | ![circle](./docs/assets/imgs_svgs/circle_0B1420.svg) | `#0B1420` |
 | ![circle](./docs/assets/imgs_svgs/circle_26446D.svg) | `#26446D` |
 | ![circle](./docs/assets/imgs_svgs/circle_6590CA.svg) | `#6590CA` |
+
+## **Diseño UI**
+
+You can see the project design in Figma: [Figma UI Design](https://www.figma.com/design/d4KgvrUiG4gTi0cpru46v0/Proyecto_LaunchLAb_ArrowAscend?node-id=0-1&t=TTHmZeOvj59fl94q-1)
+
+
+### **Desktop UI Design**
+
+- Inicio
+- Proceso
+- Nosotros
+- Proyectos
+- Documentos
+
+<img src="docs/assets/imgs_UI_design/UI_design_desktop.png" style="width: 600px;">
+
+### **Mobile UI Design**
+
+- Inicio
+- Proceso
+- Nosotros
+- Proyectos
+
+<img src="docs/assets/imgs_UI_design/UI_design_mobile.png" style="width: 600px;">
