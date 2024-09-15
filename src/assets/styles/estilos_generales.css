@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{   
+    --fuente_regular:400;
+    --fuente_semibold:600;
+    --fuente_bold:700;
+
+    --fuente_tamanio_titulo_1:28px;
+    --fuente_tamanio_titulo_2:22px;
+    --fuente_tamanio_titulo_3:18px;
+    --fuente_tamanio_titulo_4:15px;
+
+    --color_rojo_1:#913919;
+    --color_rojo_0:#DA5625;
+    --color_rojo_-1:#E27C55;
+    --color_rojo_-2:#EAA186;
+
+    --color_caqui_1:#687756;
+    --color_caqui_0:#859870;
+    --color_caqui_-1:#A0AF90;
+    --color_caqui_-2:#C9D1BF;
+
+    --color_celeste_1:#134C49;
+    --color_celeste_0:#19625E;
+    --color_celeste_-1:#2AA7A0;
+    --color_celeste_-2:#76DCD6;
+
+    --color_azul_0:#0B1420;
+    --color_azul_-1:#26446D;
+    --color_azul_-2:#6590CA;
+
+    --color_negro:#1C1C1C;
+    --color_gris_1:#686868;
+    --color_gris_0:#B3B3B3;
+    --color_gris_-1:#DDDDDD;
+    --color_blanco:#F7F7F7;
+}
+
+
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
