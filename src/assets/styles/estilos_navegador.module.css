@@ -1,0 +1,176 @@
+html{
+    --alto_navegador : 140px;
+}
+
+nav{
+    height:var(--alto_navegador);
+    width: 100%;
+
+    box-sizing: border-box;
+    background-color: var(--color_negro);
+    display: flex;
+    align-items: center;
+    padding:0 2rem 0 1rem;
+
+    justify-content: space-between;
+    font-size: var(--fuente_tamanio_titulo_3);
+
+
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* La posiciona al inicio del scroll */
+    left: 0;
+    width: 100%; /* Se extiende a lo largo de toda la pantalla */
+    z-index: 1000; /* Asegura que esté encima del contenido */
+
+    transition: height 0.3s ease, font-size 0.3s ease; /* Transición suave */
+}
+
+nav.reducida{
+    height: 100px;
+    font-size: var(--fuente_tamanio_titulo_4);
+}
+
+.espacio_nav{
+    height: 140px;
+}
+
+    nav > .cont_logos{
+        /*background-color: yellow;*/
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+        nav > .cont_logos > .cont_logo_general{
+            /*background-color: blue;*/
+            aspect-ratio: 1/1;
+            height:100%;
+
+            
+        }
+
+        nav > .cont_logos> .division{
+            background-color: var(--color_blanco);
+            height: 100%;
+            width: 5px;
+            margin:0 0.6rem;
+        }
+
+
+        nav > .cont_logos > .cont_logo_uno{
+            height: 100%;
+            /*background-color: purple;*/
+        }
+
+        nav > .cont_logos img{
+            height: 100%;
+            width: auto;
+            transition: filter 0.5s ease;
+        }
+
+        nav > .cont_logos > a {
+            width: 180px;
+            height: 100%;
+        }
+
+        nav > .cont_logos > a > img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Asegura que la imagen se ajuste al contenedor */
+            object-position: left; /* Centra la imagen */
+        }
+
+        nav > .cont_logos > a > img:hover{
+            filter: drop-shadow(0 0 10px var(--color_celeste_-1))
+        }
+
+    nav > ul{
+        display: flex;
+        column-gap: 3.5rem;
+        font-weight: var(--fuente_semibold);
+        font-size: inherit;
+    }
+
+    nav > ul > li{
+        display: flex;
+    }
+
+        nav > ul > li > a{
+            color: var(--color_blanco);
+            position: relative;
+            font-size: inherit;
+            
+            padding: 1rem;
+            transition: background-color 0.5s ease;
+        }
+
+        nav > ul > li > a:hover{
+            background-color: var(--color_celeste_1);
+        }
+
+
+        nav > ul > li > a.active{
+            color: var(--color_rojo_-1);
+        }
+
+        nav > ul > li > a.active:hover{
+            background-color: transparent;
+        }
+
+
+    nav > button{
+        display: none;
+    }
+
+
+
+@media only screen and (max-width: 1000px){
+    nav{
+        padding: 0 1rem 0 1rem;
+    }
+
+    nav > button{
+        display: block;
+        padding: 1rem;
+        background-color: var(--color_negro);
+        border: 1px solid var(--color_blanco);
+    }
+    
+    
+    nav > button > span{
+        color:var(--color_blanco)
+    }
+    
+
+        nav > ul{
+            background-color: var(--color_negro);
+            position: absolute;
+            flex-direction: column;
+            top: 140px;
+            right: 0;
+            transition: top 0.3s ease-in-out;
+        }
+
+
+        nav > ul.reducida_ul{
+            top: 100px
+        }
+
+
+        nav > button{
+            display: flex;
+        }
+
+                nav > ul > li > a{
+                    text-align: center;
+                    width: 100%;
+                }
+
+    .menu_visible{
+        display: flex;
+    }
+
+    .menu_hidden{
+        display: none;
+    }
+}

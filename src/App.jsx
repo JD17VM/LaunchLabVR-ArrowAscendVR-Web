@@ -1,9 +1,20 @@
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { Navegador} from './widgets/Navegador'
+
 function App() {
 
   return (
-    <>
-      hola
-    </>
+    <BrowserRouter basename="/LaunchLab">
+      <Navegador></Navegador>
+      
+      <main>
+        <Routes>
+          
+        </Routes>
+      </main>
+
+      
+    </BrowserRouter>
   )
 }
 
