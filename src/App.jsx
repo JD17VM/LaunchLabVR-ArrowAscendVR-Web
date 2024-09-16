@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Navegador} from './widgets/Navegador'
+import { Footer} from './widgets/Footer'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         </Routes>
       </main>
 
-      
+      <Footer></Footer>
     </BrowserRouter>
   )
 }
