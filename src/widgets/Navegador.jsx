@@ -123,7 +123,7 @@ export function Navegador() {
                     </span>
                 </button>
                 <ul className={`${isOpen ? styles.menu_visible : styles.menu_hidden} ${scrolling ? styles['reducida_ul'] : ''}`}>
-                    <li><Link to={pageDataToUse.enlace_documentos} className={activeLink === '/index' || activeLink === '/index' ? styles['active'] : ''}>Inicio</Link></li>
+                    <li><Link to={pageDataToUse.enlace_index} className={activeLink === '/' || activeLink === '/index2' ? styles['active'] : ''}>Inicio</Link></li>
                     <li><Link to={pageDataToUse.enlace_documentos} className={activeLink === '/documentos' || activeLink === '/documentos2' ? styles['active'] : ''}>Documentos</Link></li>
                     <li><Link to={pageDataToUse.enlace_proceso} className={activeLink === '/proceso' || activeLink === '/proceso2' ? styles['active'] : ''}>Proceso</Link></li>
                     <li><Link to={pageDataToUse.enlace_nosotros} className={activeLink === '/nosotros' || activeLink === '/nosotros2' ? styles['active'] : ''}>Nosotros</Link></li>
