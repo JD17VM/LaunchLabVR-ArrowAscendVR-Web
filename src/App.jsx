@@ -1,6 +1,7 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { Navegador} from './widgets/Navegador'
 import { Footer} from './widgets/Footer'
+import { Inicio} from './Inicio'
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
       
       <main>
         <Routes>
+          <Route path="/" element={<Inicio />} />
           
+          <Route path="/index2" element={<Inicio />} />
         </Routes>
       </main>
 
