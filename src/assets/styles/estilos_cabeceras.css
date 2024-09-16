@@ -1,0 +1,35 @@
+.cabecera{
+    /*background-image:url('../imgs/background.png');*/
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera * {
+    position: relative; /* El contenido está sobre el overlay */
+    z-index: 1;
+  }
+
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b9d;
+    z-index: 0;
+  }
+
+
+.cabecera > h1{
+        font-size: var(--fuente_tamanio_titulo_1);
+        font-weight: var(--fuente_bold);
+        color: white;
+}
