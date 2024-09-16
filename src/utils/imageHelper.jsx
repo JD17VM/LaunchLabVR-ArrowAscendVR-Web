@@ -27,6 +27,14 @@ import capturas_grid_LL_4 from '../assets/imgs/LaunchLab/Grid_Capturas_Interfaz/
 import capturas_grid_AA_1 from '../assets/imgs/ArrowAscend/Grid_Capturas_Interfaz/image_1.png'
 import capturas_grid_AA_2 from '../assets/imgs/ArrowAscend/Grid_Capturas_Interfaz/image_2.png'
 
+import background_cabecera_documentos from '../assets/imgs/Backgrounds_Cabecera/background_escuela.png'
+import background_cabecera_proceso from '../assets/imgs/Backgrounds_Cabecera/background_proceso.webp'
+import background_cabecera_nosotros from '../assets/imgs/Backgrounds_Cabecera/background_nosotros.webp'
+import background_cabecera_proyectos from '../assets/imgs/Backgrounds_Cabecera/background_proyectos.jpg'
+
+import foto_JuanDiego from '../assets/imgs/Foto_JuanDiego.jpg';
+import foto_Alex from '../assets/imgs/Foto_Alex.jpg';
+
 const imageHelper = {
     Logo_IHC_normal,
     Logo_LaunchLab,
@@ -55,6 +63,14 @@ const imageHelper = {
 
     imagen_portada_AA,
     imagen_portada_LL,
+
+    background_cabecera_documentos,
+    background_cabecera_proceso,
+    background_cabecera_nosotros,
+    background_cabecera_proyectos,
+
+    foto_JuanDiego,
+    foto_Alex,
 }
 
 export default imageHelper;
