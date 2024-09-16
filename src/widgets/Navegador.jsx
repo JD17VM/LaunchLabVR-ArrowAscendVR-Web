@@ -4,8 +4,6 @@ import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from "react"
 
 
-import '../assets/styles/normalize.css'
-import '../assets/styles/estilos_generales.css'
 import styles from '../assets/styles/estilos_navegador.module.css'
 
 import imageHelper from '../utils/imageHelper'

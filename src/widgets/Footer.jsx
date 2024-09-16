@@ -1,5 +1,3 @@
-import '../assets/styles/normalize.css'
-import '../assets/styles/estilos_generales.css'
 import styles from '../assets/styles/estilos_footer.module.css'
 
 import imageHelper from '../utils/imageHelper'
