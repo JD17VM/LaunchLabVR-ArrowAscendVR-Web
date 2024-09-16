@@ -46,3 +46,33 @@ html{
 *{
     box-sizing: border-box;
 }
+
+body{
+    width:100%;
+    background-size: 100% auto; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat;
+}
+
+
+body {
+    background-color: #131313;
+}
+
+body.bg_AA{
+    background-image: url('../imgs/ArrowAscend/Background_Total.png');
+}
+
+
+body.bg_LL{
+    background-image: url('../imgs/LaunchLab/Background_Total.png');
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        background-size: 200%;
+        background-position: top left;
+        background-repeat: repeat;
+        height: 100vh;
+    }
+}
