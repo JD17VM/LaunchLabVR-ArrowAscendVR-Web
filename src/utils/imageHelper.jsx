@@ -35,6 +35,14 @@ import background_cabecera_proyectos from '../assets/imgs/Backgrounds_Cabecera/b
 import foto_JuanDiego from '../assets/imgs/Foto_JuanDiego.jpg';
 import foto_Alex from '../assets/imgs/Foto_Alex.jpg';
 
+import imagen_AA_proceso_1 from '../assets/imgs/ArrowAscend/Proceso/Creacion_Idea.jpg';
+import imagen_AA_proceso_2 from '../assets/imgs/ArrowAscend/Proceso/Prototipo_Baja_Fidelidad.jpg';
+import imagen_AA_proceso_3 from '../assets/imgs/ArrowAscend/Proceso/Primera_Fase.png';
+
+import imagen_LL_proceso_1 from '../assets/imgs/LaunchLab/Proceso/Creacion_Idea.png';
+import imagen_LL_proceso_2 from '../assets/imgs/LaunchLab/Proceso/Sketching.jpg';
+import imagen_LL_proceso_3 from '../assets/imgs/LaunchLab/Proceso/Storyboarding.jpg';
+
 const imageHelper = {
     Logo_IHC_normal,
     Logo_LaunchLab,
@@ -71,6 +79,14 @@ const imageHelper = {
 
     foto_JuanDiego,
     foto_Alex,
+
+    imagen_AA_proceso_1,
+    imagen_AA_proceso_2,
+    imagen_AA_proceso_3,
+
+    imagen_LL_proceso_1,
+    imagen_LL_proceso_2,
+    imagen_LL_proceso_3,
 }
 
 export default imageHelper;
