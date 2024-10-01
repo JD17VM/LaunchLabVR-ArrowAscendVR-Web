@@ -17,14 +17,14 @@ export function Proyectos() {
                 <div className={styles.seccion}>
                     <div className={styles.contenido_seccion}>
                         <Link to="/" className={styles.cont_archivo} >
-                            <div>
+                            <div style={{ backgroundImage: `url(${imageHelper.background_image_LL_proyecto})` }}>
                                 <img src={imageHelper.Logo_LaunchLab} alt=""/>
                             </div>
                             <p>Launch Lab VR</p>
                         </Link>
 
                         <Link to="/index2" className={styles.cont_archivo} >
-                            <div>
+                            <div style={{ backgroundImage: `url(${imageHelper.background_image_AA_proyecto})` }}>
                                 <img src={imageHelper.Logo_ArrowAscend_fondo_negro} alt=""/>
                             </div>
                             <p>Arrow Ascend</p>

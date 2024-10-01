@@ -43,6 +43,9 @@ import imagen_LL_proceso_1 from '../assets/imgs/LaunchLab/Proceso/Creacion_Idea.
 import imagen_LL_proceso_2 from '../assets/imgs/LaunchLab/Proceso/Sketching.jpg';
 import imagen_LL_proceso_3 from '../assets/imgs/LaunchLab/Proceso/Storyboarding.jpg';
 
+import background_image_AA_proyecto from '../assets/imgs/ArrowAscend/imagen_fondo_AA.png'
+import background_image_LL_proyecto from '../assets/imgs/LaunchLab/imagen_fondo_LL.png'
+
 const imageHelper = {
     Logo_IHC_normal,
     Logo_LaunchLab,
@@ -87,6 +90,9 @@ const imageHelper = {
     imagen_LL_proceso_1,
     imagen_LL_proceso_2,
     imagen_LL_proceso_3,
+
+    background_image_AA_proyecto,
+    background_image_LL_proyecto,
 }
 
 export default imageHelper;
