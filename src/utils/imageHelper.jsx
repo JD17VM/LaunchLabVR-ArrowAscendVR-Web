@@ -27,6 +27,9 @@ import capturas_grid_LL_4 from '../assets/imgs/LaunchLab/Grid_Capturas_Interfaz/
 import capturas_grid_AA_1 from '../assets/imgs/ArrowAscend/Grid_Capturas_Interfaz/image_1.png'
 import capturas_grid_AA_2 from '../assets/imgs/ArrowAscend/Grid_Capturas_Interfaz/image_2.png'
 
+import Rating_12 from '../assets/imgs/Rating/R_12.png';
+import Rating_16 from '../assets/imgs/Rating/R_16.png';
+
 import background_cabecera_documentos from '../assets/imgs/Backgrounds_Cabecera/background_escuela.png'
 import background_cabecera_proceso from '../assets/imgs/Backgrounds_Cabecera/background_proceso.webp'
 import background_cabecera_nosotros from '../assets/imgs/Backgrounds_Cabecera/background_nosotros.webp'
@@ -93,6 +96,9 @@ const imageHelper = {
 
     background_image_AA_proyecto,
     background_image_LL_proyecto,
+
+    Rating_12,
+    Rating_16,
 }
 
 export default imageHelper;
