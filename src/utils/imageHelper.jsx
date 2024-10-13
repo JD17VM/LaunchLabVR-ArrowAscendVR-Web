@@ -49,6 +49,11 @@ import imagen_LL_proceso_3 from '../assets/imgs/LaunchLab/Proceso/Storyboarding.
 import background_image_AA_proyecto from '../assets/imgs/ArrowAscend/imagen_fondo_AA.png'
 import background_image_LL_proyecto from '../assets/imgs/LaunchLab/imagen_fondo_LL.png'
 
+import default_Image from '../assets/imgs/Default_Imgs/Image_Default.png'
+import default_PDF from '../assets/imgs/Default_Imgs/PDF_Default.png'
+import default_Video from '../assets/imgs/Default_Imgs/Video_Default.png'
+import default_Archivo from '../assets/imgs/Default_Imgs/Archivo_Default.png'
+
 const imageHelper = {
     Logo_IHC_normal,
     Logo_LaunchLab,
@@ -99,6 +104,11 @@ const imageHelper = {
 
     Rating_12,
     Rating_16,
+
+    default_Image,
+    default_PDF,
+    default_Video,
+    default_Archivo,
 }
 
 export default imageHelper;
