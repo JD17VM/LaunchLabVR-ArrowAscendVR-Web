@@ -20,7 +20,6 @@ const pageData = [
     {
         enlace_logo_proyecto: imageHelper.Logo_ArrowAscend_fondo_negro,
         enlace_index: "/index2",
-        enlace_index: "/index2",
         enlace_documentos: "/documentos2",
         enlace_proceso: "/proceso2",
         enlace_nosotros: "/nosotros2",
