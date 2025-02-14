@@ -11,7 +11,7 @@ import  ItemPage  from './ItemPage'
 function App() {
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/LaunchLabVR-ArrowAscendVR-Web">
       <Navegador></Navegador>
       
       <main>
