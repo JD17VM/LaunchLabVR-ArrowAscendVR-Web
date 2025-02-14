@@ -11,7 +11,7 @@ import  ItemPage  from './ItemPage'
 function App() {
 
   return (
-    <BrowserRouter basename="/LaunchLab">
+    <BrowserRouter basename="/">
       <Navegador></Navegador>
       
       <main>
